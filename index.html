@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Warming Ceremony - Thiru. Subramaniyam & Thirumathi Jeya</title>
+
+    <!-- WhatsApp Metadata -->
+    <meta property="og:title" content="House Warming Ceremony Invitation">
+    <meta property="og:description" content="We cordially invite you to our Pudhumani Puguvizha on 28th January 2026.">
+    <meta property="og:image" content="assets/images/house.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans+Tamil:wght@300;400;600;700&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Door Overlay -->
+    <div id="door-overlay" class="door-overlay">
+        <div class="door-left">
+            <div class="door-knob"></div>
+            <div class="door-pattern"></div>
+        </div>
+        <div class="door-right">
+            <div class="door-knob"></div>
+            <div class="door-pattern"></div>
+        </div>
+        <button id="enter-btn" class="enter-btn">
+            <span class="lang-ta">அழைப்பிதழை திறக்கவும்</span>
+            <span class="lang-en">Open Invitation</span>
+        </button>
+    </div>
+
+    <!-- Language Toggle -->
+    <button id="lang-toggle" class="lang-btn hidden">
+        <span class="lang-text">தமிழ்</span>
+    </button>
+
+    <!-- Audio Control -->
+    <button id="audio-toggle" class="audio-btn hidden" aria-label="Toggle sound">
+        <i class="ri-volume-mute-line"></i>
+    </button>
+    <audio id="bg-music" loop autoplay>
+        <source src="assets/audio/bgm.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="video-overlay"></div>
+        <video autoplay muted loop playsinline class="hero-video" poster="assets/images/house.jpg">
+            <source src="assets/video/hero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="hero-content fade-in-up">
+            <div class="ornament-top"></div>
+
+            <h1 class="title-tamil lang-ta">புதுமனை புகுவிழா</h1>
+            <h1 class="title-english lang-en">House Warming Ceremony</h1>
+
+            <p class="invite-text">
+                <span class="lang-ta title-tamil" style="font-size: 1.5rem; display: block;">பேரானந்தமும்
+                    நன்றியுடனும்,</span>
+                <span class="lang-en title-english"
+                    style="font-size: 2rem; font-family: var(--font-script); color: var(--gold-light); display: block;">With
+                    immense joy and gratitude,</span>
+                <span class="lang-ta" style="display: block; margin-top: 10px;">நாங்கள் உங்களை எங்கள் புதுமனை
+                    புகுவிழாவிற்கு அன்புடன் அழைக்கிறோம்.</span>
+                <span class="lang-en" style="display: block; margin-top: 10px;">we invite you to our house warming
+                    ceremony.</span>
+            </p>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Host Section -->
+    <section id="host" class="host-section">
+        <div class="container">
+            <div class="hosts-wrapper slide-in-bottom">
+                <div class="host-image-container">
+                    <img src="assets/images/host.png" alt="Hosts" class="host-img">
+                </div>
+                <div class="host-details">
+
+                    <div class="lang-ta">
+                        <h3 class="host-names">திரு. சுப்பிரமணியம் <br>&<br> திருமதி. ஜெயா</h3>
+                    </div>
+
+                    <div class="lang-en">
+                        <h3 class="host-names">Thiru. Subramaniyam <br>&<br> Thirumathi Jeya</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details Section -->
+    <section id="details" class="details-section">
+        <div class="container">
+            <div class="glass-card fade-in">
+                <div class="date-time-grid">
+                    <div class="detail-item">
+                        <i class="ri-calendar-event-line icon-gold"></i>
+                        <h4>
+                            <span class="lang-ta">தேதி</span>
+                            <span class="lang-en">Date</span>
+                        </h4>
+                        <p class="highlight-text">28.01.2026</p>
+                        <p class="sub-text">
+                            <span class="lang-ta">புதன்கிழமை</span>
+                            <span class="lang-en">Wednesday</span>
+                        </p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="ri-time-line icon-gold"></i>
+                        <h4>
+                            <span class="lang-ta">நேரம்</span>
+                            <span class="lang-en">Time</span>
+                        </h4>
+                        <p class="highlight-text">
+                            <span class="lang-en">09:26 AM</span>
+                            <span class="lang-ta">காலை 09:26</span>
+                        </p>
+                        <p class="sub-text">
+                            <span class="lang-ta">முதல்</span>
+                            <span class="lang-en">Onwards</span>
+                        </p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="ri-fire-line icon-gold"></i>
+                        <h4>
+                            <span class="lang-ta">சுப முகூர்த்தம்</span>
+                            <span class="lang-en">Muhurtham</span>
+                        </h4>
+                        <p class="highlight-text">
+                            <span class="lang-en">3:00 AM – 4:30 AM</span>
+                            <span class="lang-ta">காலை 3:00 – 4:30</span>
+                        </p>
+                        <p class="sub-text">
+                            <span class="lang-ta">பிரம்ம முகூர்த்தம்</span>
+                            <span class="lang-en">Brahma Muhurtham</span>
+                        </p>
+                    </div>
+
+                    <div class="detail-item">
+                        <i class="ri-map-pin-line icon-gold"></i>
+                        <h4>
+                            <span class="lang-ta">இடம்</span>
+                            <span class="lang-en">Location</span>
+                        </h4>
+                        <p class="highlight-text">
+                            <span class="lang-ta">சோழசிராமணி</span>
+                            <span class="lang-en">Solasiramani</span>
+                        </p>
+                        <a href="https://maps.app.goo.gl/qJsHXsGzHR9i5sfz5" target="_blank" class="location-link">
+                            <i class="ri-direction-line" style="font-size: 1rem; margin-right: 5px; color: white;"></i>
+                            <span class="lang-ta">வரைபடம்</span>
+                            <span class="lang-en">View Map</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ceremony Section -->
+    <section id="ceremony" class="ceremony-section">
+        <div class="container">
+            <h2 class="section-title text-center">
+                <span class="lang-ta">நிகழ்ச்சிகள்</span>
+                <span class="lang-en">Events</span>
+            </h2>
+            <div class="ceremony-list">
+                <div class="ceremony-item slide-in-left">
+                    <i class="ri-leaf-line"></i>
+                    <span class="lang-ta">கணபதி ஹோமம்</span>
+                    <span class="lang-en">Ganapathi Homam</span>
+                </div>
+                <div class="ceremony-item slide-in-right">
+                    <i class="ri-home-heart-line"></i>
+                    <span class="lang-ta">வாஸ்து சாந்தி</span>
+                    <span class="lang-en">Vastu Shanti</span>
+                </div>
+                <div class="ceremony-item slide-in-left">
+                    <i class="ri-door-open-line"></i>
+                    <span class="lang-ta">புதுமனை புகுவிழா</span>
+                    <span class="lang-en">House Warming</span>
+                </div>
+                <div class="ceremony-item slide-in-right">
+                    <i class="ri-hands-clapping-line"></i>
+                    <span class="lang-ta">பூஜைகள் மற்றும் சடங்குகள்</span>
+                    <span class="lang-en">Rituals & Poojas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Invitation Message -->
+    <section id="invite-msg" class="message-section">
+        <div class="overlay-gold"></div>
+        <div class="container text-center">
+            <p class="emotional-msg fade-in-up">
+                <span class="lang-ta">"உங்கள் வருகை இந்த விழாவை மேலும் சிறப்பாக்கும்"</span>
+                <span class="lang-en">"Your presence will make this occasion truly special"</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <section id="footer" class="footer-section">
+        <div class="footer-bg-wrapper">
+            <img src="assets/images/house.jpg" alt="House Night View" class="footer-bg">
+            <div class="night-overlay"></div>
+        </div>
+
+        <div class="container footer-content">
+            <div class="diya-animation">
+                <div class="diya">
+                    <div class="flame"></div>
+                </div>
+                <div class="diya">
+                    <div class="flame"></div>
+                </div>
+            </div>
+
+            <p class="awaiting-text">
+                <span class="lang-ta">அன்புடன் வரவேற்கிறோம்</span>
+                <span class="lang-en">We await your gracious presence</span>
+            </p>
+
+            <a href="tel:+917010772863" class="contact-btn pulse-anim">
+                <i class="ri-phone-fill"></i> +91 70107 72863
+            </a>
+
+            <p class="copyright">© 2026 Subramaniyam Family</p>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
